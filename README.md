@@ -5,4 +5,6 @@ This model was initially created by  Wolfgang Back and Ulrich Rohde and it was s
 I created this JavaScript application to support the teaching of computer architectures in High Schools (technical schools) with the purpose of creating 
 a more fluid transition to more advanced concepts (introduction -> Paper computer in classroom -> Paper Computer on simulator -> actual assembly).
 
+reference on wikipedia (https://en.wikipedia.org/wiki/WDR_paper_computer)
+
 ![image](https://github.com/rp-z80/WDR-Paper-Computer-Emulator/assets/74657021/8e88bd15-ed7d-4a33-bb64-c3450ef58607)
