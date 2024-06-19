@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="play-code.js"></script>
+
+    <title>WDR paper computer simulator</title>
+</head>
+<body> 
+    <h1>WDR paper computer emulator</h1>
+    <div class="container">
+        <span class="sec">
+            <table border="1" cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr>
+            <td style="background-color: lightgray;"><b>Line #</b></td>
+            <td style="background-color: lightgray;"><b>Instruction</b></td>
+            </tr>
+            <tr>
+            <td id="lineno1">1</td>
+            <td><input type="text" name="" id="1"></td>
+            </tr>
+            <tr>
+            <td id="lineno2">2</td>
+            <td><input type="text" name="" id="2"></td>
+            </tr>
+            <tr>
+            <td id="lineno3">3</td>
+            <td><input type="text" name="" id="3"></td>
+            </tr>
+            <tr>
+            <td id="lineno4">4</td>
+            <td><input type="text" name="" id="4"></td>
+            </tr>
+            <tr>
+            <td id="lineno5">5</td>
+            <td><input type="text" name="" id="5"></td>
+            </tr>
+            <tr>
+            <td id="lineno6">6</td>
+            <td><input type="text" name="" id="6"></td>
+            </tr>
+            <tr>
+            <td id="lineno7">7</td>
+            <td><input type="text" name="" id="7"></td>
+            </tr>
+            <tr>
+            <td id="lineno8">8</td>
+            <td><input type="text" name="" id="8"></td>
+            </tr>
+            <tr>
+            <td id="lineno9">9</td>
+            <td><input type="text" name="" id="9"></td>
+            </tr>
+            <tr>
+            <td id="lineno10">10</td>
+            <td><input type="text" name="" id="10"></td>
+            </tr>
+            <tr>
+            <td id="lineno11">11</td>
+            <td><input type="text" name="" id="11"></td>
+            </tr>
+            <tr>
+            <td id="lineno12">12</td>
+            <td><input type="text" name="" id="12"></td>
+            </tr>
+            <tr>
+            <td id="lineno13">13</td>
+            <td><input type="text" name="" id="13"></td>
+            </tr>
+            <tr>
+            <td id="lineno14">14</td>
+            <td><input type="text" name="" id="14"></td>
+            </tr>
+            <tr>
+            <td id="lineno15">15</td>
+            <td><input type="text" name="" id="15"></td>
+            </tr>
+            <tr>
+            <td id="lineno16">16</td>
+            <td><input type="text" name="" id="16"></td>
+            </tr>
+            <tr>
+            <td id="lineno17">17</td>
+            <td><input type="text" name="" id="17"></td>
+            </tr>
+            <tr>
+            <td id="lineno18">18</td>
+            <td><input type="text" name="" id="18"></td>
+            </tr>
+            <tr>
+            <td id="lineno19">19</td>
+            <td><input type="text" name="" id="19"></td>
+            </tr>
+            <tr>
+            <td id="lineno20">20</td>
+            <td><input type="text" name="" id="20"></td>
+            </tr>
+            <tr>
+            <td id="lineno21">21</td>
+            <td><input type="text" name="" id="21"></td>
+            </tr>
+            </tbody>
+            </table>
+            <input type="button" class="btn" id="step" value="Step" onclick="nextInstruction()">
+            <input type="button" class="btn" id="run" value="Run" onclick="autoExec()">
+            <input type="button" class="reset" id="reset" value="Reset" onclick="reset()">
+        </span>
+
+        <span class="sec">
+          <label for="registers"><b>Registers</b></label>
+          <table border="1" cellspacing="0" cellpadding="0" name="registers">
+            <tbody>
+            <tr>
+            <td><b>1:</b><input type="number" id="reg1" value="0"></td>
+            <td><b>2:</b><input type="number" id="reg2" value="0"></td>
+            <td><b>3:</b><input type="number" id="reg3" value="0"></td>
+            <td><b>4:</b><input type="number" id="reg4" value="0"></td>
+            </tr>
+            <tr>
+            <td><b>5:</b><input type="number" id="reg5" value="0"></td>
+            <td><b>6:</b><input type="number" id="reg6" value="0"></td>
+            <td><b>7:</b><input type="number" id="reg7" value="0"></td>
+            <td><b>8:</b><input type="number" id="reg8" value="0"></td>
+            </tr>
+            </tbody>
+          </table>
+          <textarea id="code" class="code" readonly>
+          </textarea>
+        </span>
+    </div>
+</body>
+</html>
